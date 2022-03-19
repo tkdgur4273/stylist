@@ -1,0 +1,34 @@
+a, span, button, input, img, video, strong, em, i{
+    /*인라인태그 display:inline
+    아래의 두 태그는width 값까지 지정해주어야한다.
+        button, input, img,*/
+}
+h1{
+    background-color: black; /*배경색은 검정색*/
+    color: white; /*글자색은 흰색*/
+    text-align: center; /*텍스트 중앙*/
+    padding: 20px ; /*안쪽여백*/
+    transition: 0.5s;/*s는 초 마우스를 가져다 놓으면 스타일변화를 감지하면 시간차를 두겠다*/
+    cursor:pointer;/*커서를 블럭에 가져다 놓으면 누르는 버튼으로 변경*/
+}
+h1:hover{
+    background-color: yellow;/*마우스 가져다놓으면 색이 노랑으로 바뀜*/
+    color: black;/*글자는 검정*/
+}
+a{
+    background-color: red;
+    display: block;
+    text-align: center;
+    width: 80%;
+    color: white;
+    text-decoration: none;
+    padding: 30px 0;
+    margin: 0 auto;
+    /*바깥쪽 여백 화면에서 나를 빼면 바깥여백수치를 반씩 나눠준다*/
+
+}
+a:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 30px 0;
+}
